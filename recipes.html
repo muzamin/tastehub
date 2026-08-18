@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TasteHub | Recipes</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="recipes.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+
+        <img src="tastehub_logo-removebg-preview.png"
+             alt="TasteHub Logo">
+
+        <h2>TasteHub</h2>
+
+    </div>
+
+
+    <nav>
+
+        <ul>
+
+            <li class="dropdown">
+                <a href="tastehub.html" class="dropdown-btn">Home <span class="dropdown-arrow">▾</span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="tastehub.html">Home 1</a></li>
+                    <li><a href="tastehub2.html">Home 2</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="about.html">About</a>
+            </li>
+
+            <li>
+                <a href="services.html">Services</a>
+            </li>
+
+            <li>
+                <a href="recipes.html" class="active">Recipes</a>
+            </li>
+
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <div class="header-buttons">
+
+        <button id="rtlBtn">RTL</button>
+
+        <button id="themeBtn">☀</button>
+
+        <a href="login.html" class="login-btn">Login</a>
+
+    </div>
+
+</header>
+
+<section class="recipe-hero">
+
+    <div class="recipe-hero-overlay"></div>
+
+    <div class="recipe-hero-content">
+
+        <span>
+            TASTEHUB RECIPE COLLECTION
+        </span>
+
+        <h1>
+            Discover Flavours
+            Worth Sharing
+        </h1>
+
+        <p>
+            From comforting classics to modern culinary
+            creations, discover recipes made to inspire
+            your next delicious moment.
+        </p>
+
+
+        <div class="recipe-search">
+
+            <input type="text"
+                   placeholder="Search your favourite recipe...">
+
+            <button>
+                Search
+            </button>
+
+        </div>
+
+
+        <div class="popular-tags">
+
+            <span>Popular:</span>
+
+            <a href="#">Pizza</a>
+            <a href="#">Pasta</a>
+            <a href="#">Biryani</a>
+            <a href="#">Desserts</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="featured-recipe">
+
+    <div class="featured-image">
+
+        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1200"
+             alt="Featured Pizza">
+
+        <div class="recipe-label">
+            CHEF'S CHOICE
+        </div>
+
+    </div>
+
+
+    <div class="featured-content">
+
+        <span class="section-label">
+            RECIPE OF THE WEEK
+        </span>
+
+        <h2>
+            Artisan
+            Margherita Pizza
+        </h2>
+
+        <p>
+            A classic Italian favourite made with fresh
+            tomatoes, creamy mozzarella, fragrant basil
+            and a perfectly baked golden crust.
+        </p>
+
+
+        <div class="recipe-info">
+
+            <div>
+                <strong>30</strong>
+                <span>MIN</span>
+            </div>
+
+            <div>
+                <strong>4</strong>
+                <span>SERVINGS</span>
+            </div>
+
+            <div>
+                <strong><i data-lucide="star"></i> 4.9</strong>
+                <span>RATING</span>
+            </div>
+
+        </div>
+
+
+        <div class="ingredients">
+
+            <span>Fresh Tomato</span>
+            <span>Mozzarella</span>
+            <span>Basil</span>
+            <span>Olive Oil</span>
+
+        </div>
+
+
+        <a href="#" class="orange-btn">
+            View Full Recipe →
+        </a>
+
+    </div>
+
+</section>
+
+<section class="recipe-collection">
+
+    <div class="section-title">
+
+        <span>
+            EXPLORE OUR COLLECTION
+        </span>
+
+        <h2>
+            Something Delicious
+            For Everyone
+        </h2>
+
+        <p>
+            Browse our most loved recipes and discover
+            new flavours for every occasion.
+        </p>
+
+    </div>
+
+
+    <div class="recipe-grid">
+
+        <article class="recipe-card">
+
+            <div class="recipe-card-image">
+
+                <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=900"
+                     alt="Pasta">
+
+                <span>
+                    25 MIN
+                </span>
+
+            </div>
+
+            <div class="recipe-card-content">
+
+                <small>
+                    ITALIAN
+                </small>
+
+                <h3>
+                    Creamy Garlic Pasta
+                </h3>
+
+                <p>
+                    Rich, creamy and comforting pasta
+                    for a perfect dinner.
+                </p>
+
+                <div class="card-bottom">
+
+                    <strong>
+                        <i data-lucide="star"></i> 4.8
+                    </strong>
+
+                    <a href="#">
+                        View Recipe →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="recipe-card">
+
+            <div class="recipe-card-image">
+
+                <img src="https://images.unsplash.com/photo-1565895405139-6c3a1555da6a?w=900"
+                     alt="Biryani">
+
+                <span>
+                    50 MIN
+                </span>
+
+            </div>
+
+            <div class="recipe-card-content">
+
+                <small>
+                    INDIAN
+                </small>
+
+                <h3>
+                    Royal Chicken Biryani
+                </h3>
+
+                <p>
+                    Fragrant rice, tender chicken and
+                    aromatic Indian spices.
+                </p>
+
+                <div class="card-bottom">
+
+                    <strong>
+                        <i data-lucide="star"></i> 4.9
+                    </strong>
+
+                    <a href="#">
+                        View Recipe →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+        <article class="recipe-card">
+
+            <div class="recipe-card-image">
+
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=900"
+                     alt="Cake">
+
+                <span>
+                    40 MIN
+                </span>
+
+            </div>
+
+            <div class="recipe-card-content">
+
+                <small>
+                    DESSERT
+                </small>
+
+                <h3>
+                    Classic Chocolate Cake
+                </h3>
+
+                <p>
+                    Soft chocolate cake finished with
+                    a smooth creamy topping.
+                </p>
+
+                <div class="card-bottom">
+
+                    <strong>
+                        <i data-lucide="star"></i> 4.7
+                    </strong>
+
+                    <a href="#">
+                        View Recipe →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+        <article class="recipe-card">
+
+            <div class="recipe-card-image">
+
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=900"
+                     alt="Healthy Salad">
+
+                <span>
+                    15 MIN
+                </span>
+
+            </div>
+
+            <div class="recipe-card-content">
+
+                <small>
+                    HEALTHY
+                </small>
+
+                <h3>
+                    Garden Fresh Salad
+                </h3>
+
+                <p>
+                    Fresh vegetables, herbs and a
+                    light homemade dressing.
+                </p>
+
+                <div class="card-bottom">
+
+                    <strong>
+                        <i data-lucide="star"></i> 4.6
+                    </strong>
+
+                    <a href="#">
+                        View Recipe →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+<section class="cuisine-section">
+
+    <div class="cuisine-overlay"></div>
+
+    <div class="cuisine-content">
+
+        <div class="section-title light">
+
+            <span>
+                TRAVEL THROUGH TASTE
+            </span>
+
+            <h2>
+                Explore World
+                Cuisines
+            </h2>
+
+            <p>
+                Take your taste buds on a journey through
+                some of the world's most loved cuisines.
+            </p>
+
+        </div>
+
+
+        <div class="cuisine-grid">
+
+
+            <a href="#" class="cuisine-card">
+
+                <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=700"
+                     alt="Italian">
+
+                <div>
+
+                    <span>
+                        120+ RECIPES
+                    </span>
+
+                    <h3>
+                        Italian
+                    </h3>
+
+                </div>
+
+            </a>
+
+
+            <a href="#" class="cuisine-card">
+
+                <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=700"
+                     alt="Indian">
+
+                <div>
+
+                    <span>
+                        180+ RECIPES
+                    </span>
+
+                    <h3>
+                        Indian
+                    </h3>
+
+                </div>
+
+            </a>
+
+
+            <a href="#" class="cuisine-card">
+
+                <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?w=700"
+                     alt="Asian">
+
+                <div>
+
+                    <span>
+                        90+ RECIPES
+                    </span>
+
+                    <h3>
+                        Asian
+                    </h3>
+
+                </div>
+
+            </a>
+
+
+            <a href="#" class="cuisine-card">
+
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=700"
+                     alt="Mediterranean">
+
+                <div>
+
+                    <span>
+                        75+ RECIPES
+                    </span>
+
+                    <h3>
+                        Mediterranean
+                    </h3>
+
+                </div>
+
+            </a>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="chef-special">
+
+    <div class="chef-special-image">
+
+        <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=1200"
+             alt="Professional Chef">
+
+        <div class="chef-stamp">
+
+            <strong>CHEF</strong>
+
+            <span>
+                SPECIAL
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <div class="chef-special-content">
+
+        <span class="section-label">
+            FROM OUR KITCHEN
+        </span>
+
+        <h2>
+            Recipes Curated
+            By Passionate Chefs
+        </h2>
+
+        <p>
+            Every recipe in our collection is selected
+            with flavour, simplicity and quality in mind.
+            Our chefs share techniques that make
+            restaurant-inspired cooking possible at home.
+        </p>
+
+
+        <div class="chef-points">
+
+            <div>
+
+                <strong>01</strong>
+
+                <div>
+
+                    <h4>
+                        Tested Recipes
+                    </h4>
+
+                    <p>
+                        Every recipe is carefully prepared
+                        and reviewed.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <strong>02</strong>
+
+                <div>
+
+                    <h4>
+                        Chef Techniques
+                    </h4>
+
+                    <p>
+                        Learn useful techniques used
+                        by professional chefs.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <strong>03</strong>
+
+                <div>
+
+                    <h4>
+                        Easy Instructions
+                    </h4>
+
+                    <p>
+                        Clear steps make cooking easier
+                        for beginners and experts.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <a href="#" class="dark-btn">
+            Meet Our Chefs →
+        </a>
+
+    </div>
+
+</section>
+
+<section class="recipe-stats">
+
+    <div class="recipe-stats-bg"></div>
+
+    <div class="recipe-stats-overlay"></div>
+
+    <div class="recipe-stats-content">
+
+        <div class="section-title light">
+
+            <span>
+                THE TASTEHUB COLLECTION
+            </span>
+
+            <h2>
+                A World Of Flavour
+                At Your Fingertips
+            </h2>
+
+            <p>
+                Our growing recipe library brings together
+                food lovers, chefs and delicious ideas
+                from around the world.
+            </p>
+
+        </div>
+
+
+        <div class="stats-grid">
+
+
+            <div class="stat-box">
+
+                <strong>
+                    5000+
+                </strong>
+
+                <span>
+                    RECIPES
+                </span>
+
+                <p>
+                    Delicious ideas for every occasion.
+                </p>
+
+            </div>
+
+
+            <div class="stat-box">
+
+                <strong>
+                    100+
+                </strong>
+
+                <span>
+                    CHEFS
+                </span>
+
+                <p>
+                    Professional culinary inspiration.
+                </p>
+
+            </div>
+
+
+            <div class="stat-box">
+
+                <strong>
+                    50K+
+                </strong>
+
+                <span>
+                    FOOD LOVERS
+                </span>
+
+                <p>
+                    A community connected by food.
+                </p>
+
+            </div>
+
+
+            <div class="stat-box">
+
+                <strong>
+                    25+
+                </strong>
+
+                <span>
+                    CUISINES
+                </span>
+
+                <p>
+                    Flavours from around the world.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="recipe-cta">
+
+    <div class="recipe-cta-overlay"></div>
+
+    <div class="recipe-cta-content">
+
+        <span>
+            YOUR KITCHEN IS WAITING
+        </span>
+
+        <h2>
+            What's Cooking
+            Today?
+        </h2>
+
+        <p>
+            Find your next favourite recipe, gather
+            your ingredients and create something
+            unforgettable.
+        </p>
+
+
+        <div class="recipe-cta-buttons">
+
+            <a href="#" class="orange-btn">
+                Browse All Recipes
+            </a>
+
+            <a href="contact.html" class="outline-btn">
+                Talk To Us
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-box brand-box">
+
+            <div class="footer-logo">
+
+                <img src="tastehub_logo-removebg-preview.png"
+                     alt="TasteHub Logo">
+
+                <h2>TasteHub</h2>
+
+            </div>
+
+            <p>
+                Bringing delicious recipes, creative cooking
+                ideas and food inspiration to every kitchen.
+            </p>
+
+            <div class="social-icons">
+                <a href="#" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                </a>
+                <a href="#" aria-label="Facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                </a>
+                <a href="#" aria-label="Twitter">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                </a>
+                <a href="#" aria-label="YouTube">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.41 19.1C5.12 19.56 12 19.56 12 19.56s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+                </a>
+            </div>
+
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <a href="tastehub.html">Home</a>
+
+            <a href="about.html">About</a>
+
+            <a href="services.html">Services</a>
+
+            <a href="recipes.html">Recipes</a>
+
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Support</h3>
+
+            <a href="#">Help Center</a>
+
+            <a href="#">FAQ</a>
+
+            <a href="#">Privacy Policy</a>
+
+            <a href="#">Terms & Conditions</a>
+
+        </div>
+
+        <div class="footer-box contact-box">
+
+            <h3>Contact</h3>
+
+            <p>
+                <i data-lucide="map-pin"></i>
+                <span>Hyderabad, India</span>
+            </p>
+
+            <p>
+                <i data-lucide="phone"></i>
+                <span>+91 98765 43210</span>
+            </p>
+
+            <p>
+                <i data-lucide="mail"></i>
+                <span>info@tastehub.com</span>
+            </p>
+
+            <p>
+                <i data-lucide="clock"></i>
+                <span>Mon - Sat: 9 AM - 6 PM</span>
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 TasteHub. All Rights Reserved.
+        </p>
+
+        <p>
+            Made With <i data-lucide="heart" class="footer-heart"></i> For Food Lovers
+        </p>
+
+    </div>
+
+</footer>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="tastehub.js"></script>
+
+</body>
+
+</html>
